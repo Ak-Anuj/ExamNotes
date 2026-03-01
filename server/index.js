@@ -23,7 +23,7 @@ app.post(
 );
 
 app.use(cors(
-    {origin:"https://examnotesclient-8zh3.onrender.com",
+    {origin:"https://examnotesclient-5o5n.onrender.com",
         credentials:true,
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
     }
