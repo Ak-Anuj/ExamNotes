@@ -21,7 +21,6 @@ export const generateNotes = async (payload) => {
     } catch (error) {
     console.error("API ERROR:", error?.response || error);
     throw error; // 🔥 important
-  }
     }
 }
 
