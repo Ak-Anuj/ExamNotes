@@ -19,7 +19,9 @@ export const generateNotes = async (payload) => {
         return result.data
 
     } catch (error) {
-        console.log(error)
+    console.error("API ERROR:", error?.response || error);
+    throw error; // 🔥 important
+  }
     }
 }
 
