@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import {getAuth, GoogleAuthProvider} from "firebase/auth"
 
 const firebaseConfig = {
-  apiKey: "...",
+  apiKey: "import.meta.env.VITE_FIREBASE_APIKEY",
   authDomain: "examnotes-e4f82.firebaseapp.com",
   projectId: "examnotes-e4f82",
   storageBucket: "examnotes-e4f82.firebasestorage.app",
